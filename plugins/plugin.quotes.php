@@ -1,5 +1,20 @@
 <?php
 
+/*
+================================================================================
+Description:    Allows to invoke random quotes using /quote command.
+                Provides easy maintenance of quotes inside xml config file and
+                possibility to add or modify quotes without restarting XASECO
+                using /quote reload command - as MasterAdmin.
+
+Author:         ronney
+Version:        v1.0
+Date:           2022-04-27
+
+Dependencies:   none
+================================================================================
+*/
+
 Aseco::registerEvent('onSync', 'q_onSync');
 Aseco::addChatCommand('quote', 'Tells a random quote from this server');
 
