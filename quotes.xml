@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- template, use to copy:
+
+    <entry>
+        <quote></quote>
+        <author></author>
+    </entry>
+-->
+
+<quotes>
+    <entry>
+        <quote>example1</quote>
+        <author>ronney</author>
+    </entry>
+
+    <entry>
+        <quote>example2</quote>
+        <author>ronney</author>
+    </entry>
+</quotes>
